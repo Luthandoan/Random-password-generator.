@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient(135deg, #2672e4, #2a6de0); /* Gradient blue background */
+    background: linear-gradient(135deg, #2672e4, #2a6de0); 
     color: #fff;
     display: flex;
     justify-content: center;
@@ -21,14 +21,14 @@ body {
     text-align: center;
     padding: 20px;
     border: 4px solid; 
-    border-image: linear-gradient(90deg, #ff5f6d, #ffc371) 1; /* Gradient border */
-    border-radius: 12px; /* Soft rounded corners */
-    box-shadow: 0px 5px 15px rgba(255, 95, 109, 0.2); /* Soft glow */
+    border-image: linear-gradient(90deg, #ff5f6d, #ffc371) 1; 
+    border-radius: 12px; 
+    box-shadow: 0px 5px 15px rgba(255, 95, 109, 0.2); 
     transition: transform 0.2s ease-in-out;
 }
 
 .container:hover {
-    transform: scale(1.02); /* Slight hover effect */
+    transform: scale(1.02); 
 }
 
 
@@ -37,11 +37,11 @@ body {
     font-weight: 600;
     line-height: 1.3;
     margin-bottom: 60px;
-    color: #ffdd57; /* Warm yellow */
+    color: #ffdd57; 
 }
 
 .container h1 span {
-    color: #ff5f6d; /* Vibrant coral */
+    color: #ff5f6d; 
     border-bottom: 4px solid #ff5f6d;
     padding-top : 50px;
 }
@@ -57,7 +57,7 @@ body {
     border-radius: 12px;
     box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2);
     transition: transform 0.2s ease-in-out, box-shadow 0.3s ease;
-    margin-bottom: 30px; /* 🆕 Added space below search box */
+    margin-bottom: 30px; 
 }
 .display:hover {
     transform: scale(1.03);
@@ -99,7 +99,7 @@ body {
     cursor: pointer;
     transition: background 0.3s ease, transform 0.2s ease-in-out, box-shadow 0.3s ease;
     box-shadow: 0px 4px 15px rgba(255, 95, 109, 0.3);
-    margin-top: 20px; /* 🆕 Extra space above the button */
+    margin-top: 20px; 
 }
 
 .container button:hover {
